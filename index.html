@@ -407,24 +407,33 @@
                 <h3 class="modal-title">Оставьте свои данные, мы вам перезвоним</h3>
                 <ul class="list">
                     <li class="form-field">
-                        <label for="user-name">Имя</label>
-                        <input type="text" name="user-name" id="user-name">
+                        <input class="form-input" type="text" name="user-name" id="user-name">
+                        <label class="form-label" for="user-name">Имя</label>
+                        <svg class="form-icon-person">
+                            <use href=".//images/icons.svg#icon-person"></use>
+                        </svg>
                     </li>
                     <li class="form-field">
-                        <label for="tel">Телефон</label>
-                        <input type="tel" name="tel" id="tel">
+                        <input class="form-input" type="tel" name="tel" id="tel">
+                        <label class="form-label" for="tel">Телефон</label>
+                        <svg class="form-icon-person">
+                            <use href=".//images/icons.svg#icon-phone"></use>
+                        </svg>
                     </li>
                     <li class="form-field">
-                        <label for="modal-email">Почта</label>
-                        <input type="email" name="email" id="modal-email">
+                        <input class="form-input" type="email" name="email" id="modal-email">
+                        <label class="form-label" for="modal-email">Почта</label>
+                        <svg class="form-icon-person">
+                            <use href=".//images/icons.svg#icon-email"></use>
+                        </svg>
                     </li>
                     <li class="form-field">
-                        <label for="comment">Комментарий</label>
-                        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Введите текст"></textarea>
+                        <textarea class="form-textarea" name="comment" id="comment" cols="30" rows="7" placeholder="Введите текст"></textarea>
+                        <label class="form-label" for="comment">Комментарий</label>
                     </li>
                     <li>
                         <input type="checkbox" name="consent" id="consent">
-                        <label for="consent">Соглашаюсь с рассылкой и принимаю Условия договора</label>
+                        <label for="consent">Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a> </label>
                     </li>
                 </ul>
                 <button class="modal-button" type="submit">Отправить</button>
