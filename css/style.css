@@ -490,6 +490,7 @@ img {
 }
 .form-subscription {
   display: flex;
+  width: 570px;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 93px;
@@ -498,6 +499,7 @@ img {
 .subscription {
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
   margin: 0;
   padding: 0;
   background-color: var(--footer-bg-color--);
@@ -530,6 +532,7 @@ img {
   display: flex;
   align-self: flex-end;
   margin-right: 0;
+  margin-left: 12px;
   padding: 10px 29px;
   width: 200px;
   height: 50px;
@@ -725,8 +728,6 @@ img {
   fill: var(--accent-color--);
   cursor: pointer;
 }
-.modal-form {
-}
 .modal-title {
   margin-top: 0;
   margin-bottom: 12px;
@@ -795,6 +796,32 @@ img {
   line-height: 1.14;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+}
+.form-checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.form-input-checkbox {
+  -webkit-appearance: none;
+  position: absolute;
+}
+.form-icon-check {
+  display: inline-block;
+  margin-right: 7px;
+  width: 16px;
+  height: 15px;
+  border: 2px solid;
+  border-color: #212121;
+  border-radius: 2px;
+}
+.form-input-checkbox:checked + .form-icon-check {
+  background-color: var(--accent-color--);
+  background-size: cover;
+  background-origin: border-box;
+  border-color: transparent;
 }
 .modal-button {
   display: flex;

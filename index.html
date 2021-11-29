@@ -431,9 +431,13 @@
                         <textarea class="form-textarea" name="comment" id="comment" cols="30" rows="7" placeholder="Введите текст"></textarea>
                         <label class="form-label" for="comment">Комментарий</label>
                     </li>
-                    <li>
-                        <input type="checkbox" name="consent" id="consent">
-                        <label for="consent">Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a> </label>
+                    <li class="form-checkbox">
+                        <input class="form-input-checkbox" type="checkbox" name="consent" id="consent">
+                        <svg class="form-icon-check">
+                            <use href=".//images/icons.svg#icon-check"></use>
+                        </svg>
+                        <label class="form-label-checkbox" for="consent">Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a></label>
+                        
                     </li>
                 </ul>
                 <button class="modal-button" type="submit">Отправить</button>
