@@ -823,11 +823,13 @@ img {
   color: rgba(117, 117, 117, 0.5);
 }
 .form-checkbox {
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.form-label-checkbox {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 30px;
-  margin-top: 0;
 }
 .form-input-checkbox {
   -webkit-appearance: none;
