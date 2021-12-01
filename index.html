@@ -431,12 +431,14 @@
                         <textarea class="form-textarea" name="comment" id="comment" rows="7" placeholder="Введите текст"></textarea>
                         <label class="form-label" for="comment">Комментарий</label>
                     </li>
-                    <li class="form-checkbox">
-                        <input class="form-input-checkbox" type="checkbox" name="consent" id="consent" required>
-                        <svg class="form-icon-check">
-                            <use href=".//images/icons.svg#icon-check"></use>
-                        </svg>
-                        <label class="form-label-checkbox" for="consent">Соглашаюсь с рассылкой и принимаю <a class="checkbox-link" href="">Условия договора</a></label>
+                    <li class="form-checkbox"> 
+                        <label class="form-label-checkbox" for="consent">
+                            <input class="form-input-checkbox" type="checkbox" name="consent" id="consent" required>
+                            <svg class="form-icon-check">
+                                <use href=".//images/icons.svg#icon-check"></use>
+                            </svg>
+                            Соглашаюсь с рассылкой и принимаю <a class="checkbox-link" href="">Условия договора</a>
+                        </label>
                     </li>
                 </ul>
                 <button class="modal-button" type="submit">Отправить</button>

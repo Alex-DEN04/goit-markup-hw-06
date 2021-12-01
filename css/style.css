@@ -846,6 +846,12 @@ img {
     background-origin 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.form-icon-check:focus {
+  background-color: var(--accent-color--);
+  background-size: cover;
+  background-origin: border-box;
+  border-color: transparent;
+}
 .form-input-checkbox:checked + .form-icon-check {
   background-color: var(--accent-color--);
   background-size: cover;
